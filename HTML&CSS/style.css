@@ -1,0 +1,342 @@
+body{
+    background: ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+header{
+  background:hsl(193,100%,96%);
+}
+#navigate{
+  float: right;
+}
+
+.navigate{
+  display: inline;
+  background: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 7px;
+  border:2px solid rgba(0,0,0,0.2);
+  line-height: 40px;
+}
+#intro1{
+  padding: 50px;
+}
+#intro2 img{
+  width: 500px;
+}
+
+.intro{
+  display: flex;
+  background: url("./images/bg-hero-desktop.svg") hsl(193,100%,96%);
+  padding-top: 20px;
+}
+
+#start{
+  width: 30%;
+  background: hsl(322, 100%, 66%);
+  color: white;
+  padding: 10px 20px;
+  text-align:center ;
+  border-radius: 40px;
+}
+.content{
+  display: flex;
+  margin: 30px;
+  justify-content: center;  
+  background:white;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius:5px; 
+}
+.content div{
+  padding: 50px;
+}
+.content img{
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: px;
+}
+#access{
+  padding: 90px;
+}
+#storage{
+  padding: 90px;
+}
+.content2{
+  display: flex;
+  justify-content: space-around;  
+  background: white;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin: 30px;
+  border-radius:5px;
+}
+.content2 div{
+  padding: 80px;
+}
+.content2 img{
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: px;
+}
+.productive{
+  display: flex;  
+  justify-content: center;
+  background:white;
+  border: 1px solid rgba(0,0,0,0.2); 
+  margin: 30px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+.productive div{
+  padding: 80px;
+}
+.productive img{
+  display:block;
+  margin: auto;
+  width:250px;
+}
+#signup{
+  position: relative;
+  width: 500px;
+  background:white;
+  margin-top: 200px;
+  margin: auto;
+  margin-bottom: -40px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid rgba(0,0,0,0.2);
+  z-index: 2;
+}
+#signup h3{
+  line-height:40px;
+}
+#started{   
+  font-size: 14px;
+  margin: 0px 150px;
+  background: hsl(322, 100%, 66%);
+  border-radius: 20px;
+}
+footer{
+  color: hsl(0, 0%, 100%);
+  background: hsl(192,100%,9%);
+}
+#logo2{
+  margin-top: 100px;
+  color: white;
+  background:white;
+  margin-left: 40px;
+  width: 150px;
+}
+#footer{
+    display: flex;  
+}
+#footer div{
+  border-radius: 10px;
+  padding: 25px;
+  width: 35%;
+  margin: 15px;
+  margin-top: 10px;
+}
+#location{
+  float: left;
+}
+.footer{
+  display: inline;
+  clear: left;
+  margin-left: 5px;
+}
+
+#phone{
+  float: left;
+}
+#email{
+  float: left;  
+}
+.contact{
+  width: 20px;
+  margin: 5px;
+}
+@media screen and (max-width:375px) {
+  #logo{
+    width: 100px;
+  }
+  #navigate{
+   float: right;
+  }
+  body{
+   background: ;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  }
+  header{
+    background:hsl(193,100%,96%);
+    
+  }
+  #navigate{
+    float: right;
+  }
+  .navigate{
+    display: inline;
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+    border:2px solid rgba(0,0,0,0.2);
+    line-height: 40px;
+  }
+  #intro1{
+  padding: 20px;
+  }
+  #intro2{
+    margin-top: 70px;
+  }
+  #intro2 img{
+    width: 300px;
+  }
+  .intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url("./images/bg-hero-desktop.svg") hsl(193,100%,96%);
+    justify-content: center;
+    text-align: center;
+  }
+  #start{
+    width: 50%;
+    background: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 20px;
+    text-align:center;
+    border-radius: 40px;
+    margin: auto;
+  }
+  .content{
+    display: flex;
+    flex-direction:column ;
+    margin: 30px;
+    justify-content: center;  
+    background:white;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius:5px; 
+    text-align: center;
+  }
+  .content div{
+    padding: 10px;
+  }
+  .content img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: px;
+  }
+  #access{
+  padding: 20px;
+  }
+  #storage{
+    padding: 30px;
+  }
+  .content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    background: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 30px;
+    border-radius:5px;
+    text-align: center;
+  } 
+  .content2 div{
+    padding: 20px;
+  }
+  .content2 img{
+    display: block;
+    margin: auto;
+    width: 250px;
+  }
+  .productive{
+    display: flex;  
+    flex-direction:column;
+    justify-content: center;
+    background:white;
+    border: 1px solid rgba(0,0,0,0.2); 
+    margin: 30px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .productive div{
+    padding: 20px;
+  }
+  .productive img{
+    display:block;
+    margin: auto;
+    width:250px;
+  }
+  #signup{
+    position: relative;
+    width: 300px;
+    height:150px;
+    background:white;
+    margin-top: 200px;
+    margin: auto;
+    margin-bottom: -40px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  #signup h3{
+    line-height:40px;
+  }
+  #started{   
+    font-size: 14px;
+    margin: 20px 50px;
+    background: hsl(322, 100%, 66%);
+    border-radius: 20px;
+  }
+  footer{
+    color: hsl(0, 0%, 100%);
+    background: hsl(192,100%,9%);
+  }
+  #logo2{
+    margin-top: 100px;
+    background:white;
+    margin-left: 40px;
+    width: 150px;
+  }
+  #footer{
+    display: flex; 
+    flex-direction:column;
+}
+  #footer div{
+    border-radius: 10px;
+    padding: 25px;
+    width: 35%;
+    margin: 15px;
+    margin-top: 10px;
+  }
+  #location{
+    float: left;
+  }
+  .footer{
+    display: inline;
+    clear: left;
+    margin-left: 5px;
+  }
+  #phone{
+    float: left;
+  }
+  #email{
+    float: left;  
+  }
+  .contact{
+    width: 20px;
+    margin: auto;
+  }
+  #contact{
+    margin: 50px;
+    
+  }
+}
